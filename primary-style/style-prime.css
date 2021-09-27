@@ -1,0 +1,37 @@
+body {
+    background-color: rgb(85, 37, 37);
+    text-align: center;
+    margin: 0;
+}
+div {
+    font-size: 1.5em;
+    padding: 10px;
+    margin-bottom: 10px
+}
+div:nth-of-type(odd){
+    background-color: rgb(31, 24, 26);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    ;
+}
+div:nth-of-type(odd) > p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+div:nth-of-type(odd) em {
+    color: rgb(79, 79, 216);
+}
+    
+div:nth-of-type(even){
+    background-color: cornsilk;
+}
+div:nth-of-type(even) em {
+    color: rgb(230, 107, 235);
+}
+div:nth-of-type(even) > p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+h1, p{
+    margin: 0;
+}
